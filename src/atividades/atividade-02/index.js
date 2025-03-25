@@ -5,6 +5,7 @@ import styles from './styles';
 const Atividade2 = () => {
     return (
         <View style={styles.container}>
+            <Text style={styles.titulo}>São Paulo Store</Text>
             <View style={styles.anuncio}>
                 <Image source={require('../../../assets/camisa.png')} style={styles.imagem} />
                 <Text style={styles.nome}>Camisa 01 do São Paulo</Text>
