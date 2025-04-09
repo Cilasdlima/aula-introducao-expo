@@ -28,17 +28,19 @@ function Atividade3() {
     };
 
     return (
+       
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 3</Text>
             
 
 
-            <Text style={styles.numero}>{num}</Text>
-
+          
             <View style={styles.botoesContainer}>
                 <TouchableOpacity style={styles.botao} onPress={handleAtualizaState}>
                     <Text style={styles.txtBotao}>Adicionar +1</Text>
                 </TouchableOpacity>
+
+                <Text style={styles.numero}>{num}</Text>
 
                 <TouchableOpacity style={styles.botao} onPress={handleDecrementaState}>
                     <Text style={styles.txtBotao}>Subtrair -1</Text>

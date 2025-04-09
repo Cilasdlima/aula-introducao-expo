@@ -38,19 +38,20 @@ const styles = StyleSheet.create({
     },
     botoesContainer: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        width: '95%',
-        marginTop: 10,
+        marginVertical: RFPercentage(1),
+        justifyContent: 'space-evenly',
+        width: '100%',
+       
     },
     botao: {
         backgroundColor: 'deepskyblue',
-        padding: 20,
-        borderRadius: 10,
+        padding: 10,
+        borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 10,
         // flex: 1,
-        marginHorizontal: 1,
+        marginHorizontal: 5,
         width: '50%',
         borderWidth: 1,
         
@@ -64,7 +65,8 @@ const styles = StyleSheet.create({
         fontSize: 50,
         fontWeight: 'bold',
         color: 'black',
-        marginTop: 15,
+        // marginTop: 15,
+        textAlign: 'center',
     },
 });
 
