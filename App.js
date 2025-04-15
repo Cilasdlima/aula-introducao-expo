@@ -19,11 +19,13 @@ import Atividade2 from './src/atividades/atividade-02';
 
 import Atividade3 from './src/atividades/atividade-03';
 
+import Atividade4 from './src/atividades/atividade-04';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo4/>
+      <Atividade4/>
       <StatusBar style="light" />
     </View>
   );
