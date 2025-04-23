@@ -6,14 +6,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         padding: 8,
         flex: 1,
-        alignItems: 'center',
 
     },
     titulo: {
         fontSize: RFPercentage(3),
         fontWeight: 'bold',
         borderWidth: 2,
-        borderColor: 'deepskyblue',
+        borderColor: '#E91E63',
         marginTop: 10,
         marginBottom: 10,
         padding: 8,
@@ -27,7 +26,7 @@ const styles = StyleSheet.create({
         color: 'deepskyblue',
     },
 
-    textSaida: {
+    txtSaida: {
         fontSize: 22,
         margin: 6,
         textAlign: 'center',
@@ -39,8 +38,8 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 22,
         borderColor: '#E91E63',
-        height: 40,
-        color: '#E91E63',
+        height: 60,
+        color: '#080808',
         borderRadius: 10,
         marginTop: 10,
     },
@@ -51,15 +50,15 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginTop: 10,
    },
-   textButton: {
+   txtButton: {
     fontSize: 22,
-    color: '#FF80AB',
+    color: '#0c0c0c',
     textAlign: 'center',
    },
-   textLabel: {
+   txtLabel: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#C51162',
+    color: '#080808',
    },
 
 });
